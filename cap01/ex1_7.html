@@ -1,0 +1,21 @@
+<!-- Exemplo 1.7: Cálculo do valor do jantar -->
+<meta charset="UTF-8">
+
+<!-- Minha solução prévia -->
+<!--
+<script>
+    let valorConta = Number(prompt("Valor da conta: R$ "))
+    const percentualGorjeta = 0.1
+    let valorGorjeta = percentualGorjeta * valorConta
+    valorConta += valorGorjeta
+    alert(`Valor da conta com gorjeta: R$ ${valorConta.toFixed(2)}`)
+</script>
+-->
+<script>
+    const jantar = Number(prompt("Valor do jantar: R$ "))   // lê o valor do jantar
+    const garçom = jantar * 0.1                             // calcula variáveis de saída
+    const total = jantar + garçom
+    //const total = jantar + (jantar * 0.1)
+    //const total = jantar * 1.1
+    alert(`Taxa Garçom: R$ ${garçom.toFixed(2)}\nTotal: R$ ${total.toFixed(2)}`)
+</script>
